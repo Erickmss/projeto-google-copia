@@ -1,0 +1,56 @@
+body{
+    display:flex;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    background-image: url("./um-por-do-sol-sobre-uma-praia-com-um-por-do-sol-dourado-ao-fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size:cover;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    font-family: 'Ewert', serif;
+    font-size: 110px;
+    color: rgb(203, 0, 0);
+}
+input{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    justify-content: flex-start;
+    display: flex;
+    padding: 5px;
+}
+.botao{
+display: flex;
+justify-content: space-between;
+width: 500px;
+height: 500px;
+margin-top: 20px;
+margin-left: 50px;
+
+}
+.a1,.a2,.a3,.a4{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    color: rgb(164, 10, 10);
+    padding: 10px;
+    border-radius: 30%;
+}
+a{
+    color: bisque;
+
+}
+
+
